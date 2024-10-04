@@ -97,4 +97,6 @@ def main():
         out_fn = sys.argv[1]
         trim(in_fn,out_fn,padding)
 
-main()
+
+if __name__ == "__main__":
+    main()
